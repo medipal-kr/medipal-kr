@@ -153,3 +153,12 @@ input[type="checkbox" i] {
     float: left;
     padding-left : 25px;
 }
+
+.signup-logo {
+    max-width: 330px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;;
+    padding : 20px;
+}
