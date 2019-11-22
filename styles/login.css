@@ -109,3 +109,18 @@ input[type="checkbox" i] {
     width : 100%;
     align-content: center;
 }
+
+.lost-pw {
+    color : blue!important;
+    font-size : 14px!important;
+    margin : 0px;
+    padding : 0px;
+    position: relative;
+    bottom : 10px;
+}
+
+.checkbox {
+    position: relative;
+    bottom : 20px;
+    padding : 0px;
+}

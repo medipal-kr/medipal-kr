@@ -33,11 +33,11 @@
     <body>
 
         <!--네비게이션 바 (with Bootstrap)-->
-        <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-light navbar-expand-lg" style="background-color: black;">
             <div class = "container-fluid">
                 <!--로고 부분-->
                 <a class="navbar-brand" href="#">
-                    <img src = "/Users/eljuw/Desktop/medipal/images/medipal-logo.png" alt = "Medipal(logo)">
+                    <img src = "/images/medipal-logo-white.png" alt = "Medipal(logo)">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,7 +45,7 @@
             
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!--좌측정렬-->
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav ml-auto">
                         <!--홈-->
                         <li class="nav-item">
                             <a class="nav-link" href="#">홈</a>
@@ -63,19 +63,20 @@
                         </li>
                         <!--후기-->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">후기</a>
+                            <a class="nav-link" href="#">소셜 임팩트</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">매거진</a>
+                        </li>
+
+                        <button role="button" class="btn btn-primary" href = "#">서비스 신청하기</button>
+
+                        <button class="btn btn-success my-2 my-sm-0" role="button" onclick = "location.href = '/Users/eljuw/Desktop/medipal/login.html' ">로그인</button>
+
+
                     </ul>
 
-                    <!--우측 정렬-->
-                    <ul class = "navbar-nav ml-auto">
-                        <!--로그인-->
-                        <!--need working with PHP-->
-                        <a class = "nav-item">
-                            <a class ="nav-link" href = "/Users/eljuw/Desktop/medipal/login.html">로그인</a>
-                        </a>
-                        
-                    </ul>
                 </div>
             </div>
             
