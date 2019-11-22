@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--scripts-->
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/480ded9489.js" crossorigin="anonymous"></script>
+    <!--local main JS-->
+    <script src="/js/login.js"></script>
+
+    <!--links-->
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Local CSS-->
+    <link rel="stylesheet" type="text/css" href="styles/login.css">
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+
+
+    <!--페이지 타이틀-->
+    <title>medipal 로그인</title>
+
+</head>
+
+<body class = "text-center">
+    <form class = "form-signin">
+        <img class = "logo" src = "/Users/eljuw/Desktop/medipal/images/medipal-logo.png" alt = "medipal-logo">
+        <h1 class = "h2 mb-2 font-weight-normal">로그인</h1>
+        <label for = "inputID" clas = "sr-only">아이디</label>
+        <input type ="ID" id="inputID" class = "form-control" placeholder="아이디" size = "10" required autofocus>
+        <label for="inputPW" clas="sr-only">비밀번호</label>
+        <input type = "password" id = "inputPW" class = "form-control" placeholder="비밀번호" size = "12" required>
+
+        <div class = "checkbox mb-3">
+            <label>
+                <input type = "checkbox" value = "다음번에도 기억">
+                다음번에도 기억
+            </label>
+        </div>
+        <button class = "btn btn-lg btn-primary btn-block" type="submit">로그인</button>
+        <button class = "btn btn-lg btn-primary btn-block" type="submit">회원가입</button>
+    </form>
+
+</body>
+
+</html>

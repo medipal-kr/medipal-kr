@@ -1,0 +1,66 @@
+/* Main navigation bar */
+.navbar .nav-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.container-fluid {
+    
+}
+
+
+/* Logo */
+.navbar-brand
+{
+    padding : 0px;
+}
+
+.navbar-brand>img {
+    height: 100%;
+    width: 100%;
+    max-width: 100px;
+    max-height: 70px;
+}
+
+
+/* Dropdown */
+.dropdown-toggle::after {
+    transition: transform 0.3s linear; 
+}
+.show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    float: left;
+}
+
+/* Main page comment */
+
+.blockquote {
+    margin: 100px;
+    padding: 60px;
+    text-align: center;
+    size: 400px;
+}
+
+.main-comment {
+    font-family : 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    color: brown;
+    font-style : italic;
+    size: 200px;
+}
+
+/* Main page Review */
+.review-comment{
+    text-align: center;
+    color : lightsalmon;
+    size : 100px;
+}
+
+.main-review{
+    padding : 100px;
+    margin : 150px;
+    background-color : lightcyan;
+    text-align: center;
+}
