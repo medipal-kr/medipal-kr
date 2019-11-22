@@ -121,6 +121,35 @@ input[type="checkbox" i] {
 
 .checkbox {
     position: relative;
-    bottom : 20px;
     padding : 0px;
+    font-size : medium;
+}
+
+.login-buttons {
+    bottom : 10px;
+    border-top: 1px solid blue;
+    border-bottom : 1px solid blue;
+    padding : 10px;
+    margin : 10px;
+}
+
+.new-member {
+    font-size: small;
+    display : block;
+    padding : 10px;
+    margin : 10px;
+    top : 10px;
+    display: inline-block;
+    float : left;
+}
+
+.new-member>p {
+    display: inline-block;
+    float: left;
+}
+
+.new-member>a {
+    display: inline-block;
+    float: left;
+    padding-left : 25px;
 }
