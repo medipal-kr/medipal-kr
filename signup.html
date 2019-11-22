@@ -15,7 +15,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/480ded9489.js" crossorigin="anonymous"></script>
         <!--local main JS-->
-        <script src="js/login.js"></script>
+        <script src="js/main.js"></script>
 
         <!--links-->
 
@@ -27,6 +27,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 
         <title>회원가입</title>
+
     </head>
 
     <body>
@@ -66,8 +67,8 @@
                             </div>
                             <div class="form-group">
                                 <p class = "signup-warn">진행하면 <a href="#">약관</a> 및 <a href="#">개인정보 취급 방침</a>에 동의하게 됩니다</p>
-                                <button id="signupSubmit" role="button" class="btn btn-info btn-block" onclick = "location.href = 'signup-complete.html' ">회원가입 하기</button>
                             </div>
+                            <button id="signupSubmit" role="button" class="btn btn-info btn-block" onclick="location.href = 'signup-complete.html'; return false;">회원가입 하기</button>
                         </form>
                     </div>
                 </div>
