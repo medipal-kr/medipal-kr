@@ -23,3 +23,28 @@ $(window).on("load resize", function () {
         $dropdown.off("mouseenter mouseleave");
     }
 });
+
+
+$('.owl-carousel').owlCarousel({
+    autoPlay: 1000, 
+    autoplayHoverPause: true,
+    items: 3,
+    center: true,
+    dots: true,
+    loops: true,
+    margin: 10,
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        1000: {
+            items: 3
+        },
+        2000: {
+            items: 5
+        }
+    },
+    navText: ['<i class = "fa fa-arrow-left"></i>', '<i class = "fa fa-arrow-right"></i>']
+});
+

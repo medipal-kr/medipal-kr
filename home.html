@@ -5,25 +5,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!--scripts-->
-
-        <!--JQuery-->
-        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-        <!--Bootstrap-->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/480ded9489.js" crossorigin="anonymous"></script>
-        <!--local main JS-->
-        <script src="js/main.js"></script>
-
         <!--links-->
-
+        
         <!--Bootstrap CSS-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!--Local CSS-->
         <link rel="stylesheet" type="text/css" href="styles/style.css">
         <!--Google Font-->
-        <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Noto+Sans+KR:400,500&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Noto+Sans+KR:400,500&display=swap" rel="styleshee    t">
+        <!--owl carousel CSS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
 
         <!--페이지 타이틀-->
         <title>medipal</title>
@@ -82,7 +74,7 @@
             
         </nav>
 
-
+        <!--Home1 - 첫 파트-->
         <section class = "container-fluid home1 d-flex">
             <div class = "home1-text">
                 <h3>MEDIPAL</h1>
@@ -95,6 +87,7 @@
             </div>
         </section>
 
+        <!--Home2 - 두번째 파트-->
         <section class = "container-fluid home2">
             <div class = "row d-flex justify-content-center">
                 <div class="col-lg-4 home2-text">
@@ -112,11 +105,12 @@
             </div>
         </section>
 
+        <!--Home3 - 세번째 파트-->
         <section class = "container-fluid home3">
             <div class = "col-md text-center">
             <h3>MEDIPAL 진료 보조 서비스가 필요한 이유</h3>
             </div>
-
+            <!--Home3-내부 -->
             <div class = "row d-flex justify-content-center">
                 <div class = "col-md-4 home3-text">
                     <h5>전문의료인이 직접 함께합니다</h5>
@@ -139,21 +133,132 @@
 
         </section>
 
+        <!--Home4 - 네번째 파트 고객리뷰 슬라이더-->
         <section class = "container-fluid home4">
-            <div class = "row">
-                <div class = "col-lg-12 text-center">
-                    <h3>실시간 고객 리뷰</h3>
-                </div>    
+            <!--Home4 - 고객리뷰 타이틀-->
+            <div class = "col-lg-12 text-center">
+                <h3>실시간 고객 리뷰</h3>
             </div>
 
-            <div class = ""></div>
+            <!-- Home4 - 고객 리뷰 슬라이더 메인 파트 with Owl Carousel -->
+            <div class = "container">
+                <div class="owl-carousel owl-theme">
+                    <div class = "item">
+                        <div class="card" style="width: 18rem; margin : 3%;">
+                            <img class="card-img-top" src="images/medipal-logo.png" alt="Card image cap" style="background-color:lightblue;">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card" style="width: 18rem; margin : 3%;">
+                            <img class="card-img-top" src="images/medipal-logo.png" alt="Card image cap" style="background-color:lightblue;">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card" style="width: 18rem; margin : 3%;">
+                            <img class="card-img-top" src="images/medipal-logo.png" alt="Card image cap" style="background-color:lightblue;">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card" style="width: 18rem; margin : 3%;">
+                            <img class="card-img-top" src="images/medipal-logo.png" alt="Card image cap" style="background-color:lightblue;">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </section>
+
+        <!--Home 5 - 비디오 영상 -->
+        <section class = "container-fluid home5">
+            <div class="embed-responsive embed-responsive-21by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=6eEZ7DJMzuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </section>
 
 
-
-
-
+        <!--Home6 - 매거진 슬라이더-->
+        <section class="container-fluid home6">
+            <!--Home6 - 매거진 타이틀-->
+            <div class="col-lg-12 text-center">
+                <h3>MEDIPAL 매거진</h3>
+            </div>
         
+            <!-- Home6 - 매거진 슬라이더 with Owl Carousel -->
+            <div class="container">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card" style="width: 18rem; margin : 3%;">
+                            <img class="card-img-top" src="images/medipal-logo.png" alt="Card image cap" style="background-color:lightblue;">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="item">
+                        <div class="card" style="width: 18rem; margin : 3%;">
+                            <img class="card-img-top" src="images/medipal-logo.png" alt="Card image cap" style="background-color:lightblue;">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="item">
+                        <div class="card" style="width: 18rem; margin : 3%;">
+                            <img class="card-img-top" src="images/medipal-logo.png" alt="Card image cap" style="background-color:lightblue;">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="item">
+                        <div class="card" style="width: 18rem; margin : 3%;">
+                            <img class="card-img-top" src="images/medipal-logo.png" alt="Card image cap" style="background-color:lightblue;">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+        
+            </div>
+        </section>
+
+        <!--Home 7 - 비디오 영상 -->
+        <section class="container-fluid home7">
+            <div class = "row home-subscription text-center">
+                <div class = "col-sm-12 subscription-main">
+                    <h2>MEDIPAL 소식을 구독해보세요</h2>
+                    <p>서비스에 관한 자세한 정보를 받아보고 싶으시다면 MEDIPAL 뉴스레터를 구독해보세요.
+                        <br>서비스와 관련된 정보, 이벤트, 혜택 등을 제공해드립니다
+                    </p>
+                    <input id="email" type="email" class = "form-control subsc-inp" placeholder="이메일 주소를 입력해주세요">
+                    <button type="submit" id="submit" class="btn">완료</button>
+                </div>
+                
+                
+            </div>
+        </section>
+
 
     </body>
 
@@ -162,6 +267,20 @@
         <div class = "#">
 
         </div>
+
+
+        <!--scripts-->
+        
+        <!--JQuery-->
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <!--Bootstrap-->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/480ded9489.js" crossorigin="anonymous"></script>
+        <!--Owl Carousel JS Libarary-->
+        <script src="OwlCarousel/owl.carousel.min.js"></script>
+        
+        <!--local main JS-->
+        <script src="js/main.js"></script>
 
     </footer>
 
